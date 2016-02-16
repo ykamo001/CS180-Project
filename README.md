@@ -1,6 +1,16 @@
 # WhatsWeb
 
-The current site build can be found [here](http://104.236.163.138/).
+Unfortunately the current site build that used to be be found [here](http://104.236.163.138/), is no longer active.
+If you wish to use this website on your local host, which is most likely 127.0.0.1, then run the following commands:
+```
+cd /var/www/html/
+git clone https://github.com/ykamo001/WhatsWeb.git
+cd WhatsWeb/
+find . -maxdepth 1 -exec mv {} .. \;
+cd ..
+```
+This will most likely get the website running, but you may have to adjust the settings a little to get it working.
+You may also remove the `WhatsWeb` directory now after moving all the files into the `html` directory.
 If you require any help or information on the website, look here and find the section that pertains to your need. Please read all the information to avoid any mistakes.
 
 ## Description
